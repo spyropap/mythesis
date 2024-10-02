@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ford Capri Group B
+* source:	https://sketchfab.com/3d-models/ford-capri-group-b-a8821371a98a4ccbad0beee12fd4f3e9
+* author:	Tiaan.Pretorius (https://sketchfab.com/Tiaan.Pretorius)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ford Capri Group B" (https://sketchfab.com/3d-models/ford-capri-group-b-a8821371a98a4ccbad0beee12fd4f3e9) by Tiaan.Pretorius (https://sketchfab.com/Tiaan.Pretorius) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

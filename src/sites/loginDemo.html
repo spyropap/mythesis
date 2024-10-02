@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loginStyle.css" type="text/css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init({
+            publicKey: "NuyGpjkGuxtKG8Iph",
+          });
+       })();
+    </script>
+    <script type="module" src="../scripts/portfolio/index.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <img class="logo" src="../assets/portfolio-logo.svg">
+        <ul>
+            <li>Work</li>
+            <li>About Me</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <h1>I am Spiro</h1>
+                <p>a CS undergraduate.</p>
+            </div>
+            <div>
+                <canvas id="c1"></canvas>
+            </div>
+        </section>
+        <section class="experience">
+            <div id="description">
+                <p id="description-text"></p>
+            </div>
+            <div class="experience-text">
+                <h2 id="experience">experience</h2>
+                <p>Teleperformance Greece, Customer Care Agent (2020 - 2021)</p>
+                <p>Praktiker Hellas, Nov 2022 - May 2023 IT Internship</p>
+                <p>Praktiker Hellas, June 2023 - Present IT Support Agent</p>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-text" id="about">
+                <p>Web Development</p>
+                <p>.Net Development</p>
+                <p>Git</p>
+            </div>
+            <div>
+                <canvas id="c2"></canvas>
+            </div>
+        </section>  
+        <section class="contact">
+            <div class="contact-text">
+                <p>Contact me.</p>
+            </div>
+            <div id="contact">
+                <form id="contact-form">
+                    <input id="name" name="name" type="text" placeholder="Full Name" required>
+                    <input id="email" name="email" type="email" placeholder="E-Mail" required> 
+                    <textarea id="message" name="message" placeholder="Write Here..." rows="5" cols="60"></textarea>
+                    <button id="submit" type="submit">Submit message</button>
+                </form>
+            </div>
+        </section>    
+    </div>
+    <script type="module" src="../scripts/portfolio/heroModel.js"></script>
+    <script type="module" src="../scripts/portfolio/experienceModel.js"></script>
+</body>
+</html>
